@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Posiziona gli elementi all'inizio e alla fine del contenitore, occupando tutto lo spazio verticale */
+  align-items: center;
+  min-height: 100vh; /* Imposta l'altezza minima al 100% della viewport height */
+  background-color: #3497c2;
+  padding: 20px; /* Aggiunge spazio intorno al contenuto */
+}
+
+.form {
+  margin-top: 200px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  background-color: red;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
+}
+
+#Search {
+  margin-right: 10px; 
+}
+
+#showId {
+  position: absolute;
+  bottom : 250px;
+}
+#Id {
+  position: absolute;
+  bottom : 200px;
+  background-color: green;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  color: white;
+}
+#Logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#Email {
+  background-color: green;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
+}
